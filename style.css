@@ -26,3 +26,29 @@
 .project-subheading h3{font-size:clamp(24px,3vw,34px);margin:0}
 @media(max-width:850px){.service-grid{grid-template-columns:1fr}.digital-card.featured{transform:none}.project-filter-note{margin-top:-28px}}
 @media(max-width:560px){.profile-mark{height:150px}.hero-specialties span{font-size:10px}.service-card{padding:23px}}
+
+/* Academic profile for university applications */
+.academic-section{background:#f5f8fb}
+.academic-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:start}
+.academic-label{font-size:11px;letter-spacing:.15em;font-weight:800;color:var(--blue)}
+.academic-copy h3{font-size:clamp(25px,3vw,36px);line-height:1.2;margin:15px 0}
+.academic-copy>p:not(.academic-label){color:#4e6073;font-size:16px;line-height:1.85}
+.academic-note{border-left:3px solid var(--blue);padding:12px 16px;background:#eaf2f8;font-size:13px!important}
+.academic-facts{border-top:1px solid #d6e0e8}
+.academic-facts article{display:grid;grid-template-columns:42px 1fr;gap:14px;padding:22px 0;border-bottom:1px solid #d6e0e8}
+.academic-facts article>span{font-size:12px;color:var(--blue);font-weight:800}
+.academic-facts h3{font-size:17px;margin:0 0 6px}
+.academic-facts p{font-size:13px;line-height:1.6;color:var(--muted);margin:0}
+@media(max-width:850px){.academic-grid{grid-template-columns:1fr;gap:30px}}
+
+/* Logistics and supply-chain study pathway */
+.logistics-section{background:#fff}
+.logistics-intro{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:-24px 0 36px}
+.logistics-intro p{color:#4e6073;font-size:16px;line-height:1.8;margin:0}
+.logistics-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.logistics-card{padding:26px;border:1px solid var(--line);border-radius:14px;background:#f7f9fb}
+.logistics-card>span{font-size:12px;font-weight:800;color:var(--blue)}
+.logistics-card h3{font-size:20px;margin:22px 0 9px}
+.logistics-card p{font-size:14px;line-height:1.75;color:var(--muted);margin:0}
+.logistics-note{margin-top:22px;color:var(--muted);font-size:12px;line-height:1.7}
+@media(max-width:850px){.logistics-intro,.logistics-grid{grid-template-columns:1fr}.logistics-intro{margin-top:-28px}}
